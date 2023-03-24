@@ -1,0 +1,8 @@
+name = "process-env"
+main = "src/index.ts"
+compatibility_date = "2023-03-24"
+compatibility_flags = ["nodejs_compat"]
+
+kv_namespaces = [
+    { binding = "MY_TEST_NAMESPACE", id = "eb1666dce9a64b24973f25dfdac2a15e", preview_id = "eb1666dce9a64b24973f25dfdac2a15e" },
+]
