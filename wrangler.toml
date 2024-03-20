@@ -1,5 +1,4 @@
 name = "process-env"
-main = "src/index.ts"
 compatibility_date = "2023-03-24"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "./dist"
