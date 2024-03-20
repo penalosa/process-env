@@ -4,6 +4,9 @@ compatibility_date = "2023-03-24"
 compatibility_flags = ["nodejs_compat"]
 pages_build_output_dir = "./dist"
 
+[vars]
+CONFIG_VAR = "config"
+
 kv_namespaces = [
     { binding = "MY_TEST_NAMESPACE", id = "eb1666dce9a64b24973f25dfdac2a15e", preview_id = "eb1666dce9a64b24973f25dfdac2a15e" },
 ]
