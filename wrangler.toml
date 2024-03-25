@@ -11,6 +11,6 @@ limits.cpu_ms = 43
 [vars]
 CONFIG_VAR = "hello world config"
 
-[kv_namespaces]
+[[kv_namespaces]]
 id = "4e11ce5d5f1c4f6e9b03deb4f7f85396"
 binding = "KV_CONFIG"
