@@ -4,9 +4,9 @@ pages_build_output_dir = "dist-test"
 compatibility_date = "2023-02-14"
 compatibility_flags = ["url_original"]
 
-placement.mode = "smart"
+# placement.mode = "smart"
 
-limits.cpu_ms = 43
+# limits.cpu_ms = 43
 
 [vars]
 CONFIG_VAR = "hello world config"
