@@ -2,15 +2,15 @@
 name = "process-env"
 pages_build_output_dir = "dist-test"
 compatibility_date = "2023-02-14"
-compatibility_flags = ["url_original"]
+# compatibility_flags = ["url_original"]
 
-# placement.mode = "smart"
+# # placement.mode = "smart"
 
-# limits.cpu_ms = 43
+# # limits.cpu_ms = 43
 
-[vars]
-CONFIG_VAR = "hello world config"
+# [vars]
+# CONFIG_VAR = "hello world config"
 
-# [[kv_namespaces]]
-# id = "4e11ce5d5f1c4f6e9b03deb4f7f85396"
-# binding = "KV_CONFIG"
+# # [[kv_namespaces]]
+# # id = "4e11ce5d5f1c4f6e9b03deb4f7f85396"
+# # binding = "KV_CONFIG"
