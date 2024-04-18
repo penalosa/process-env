@@ -6,6 +6,10 @@ compatibility_flags = ["url_original"]
 
 # # placement.mode = "smart"
 
+services = [
+  { binding = "SERVICE", service = "aged-snow-2b5c-40-40" }
+]
+
 limits.cpu_ms = 43
 
 [vars]
