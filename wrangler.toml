@@ -2,19 +2,7 @@
 name = "process-env"
 pages_build_output_dir = "src"
 compatibility_date = "2023-02-14"
-compatibility_flags = ["url_original"]
-
-# # placement.mode = "smart"
 
 services = [
-  { binding = "SERVICE", service = "no-bundle-import" }
+    { binding = "BACKEND", service = "no-bundle-import" },
 ]
-
-limits.cpu_ms = 43
-
-[vars]
-CONFIG_VAR = "hello world config"
-
-# [[kv_namespaces]]
-# id = "4e11ce5d5f1c4f6e9b03deb4f7f85396"
-# binding = "KV_CONFIG"
