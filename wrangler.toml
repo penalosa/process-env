@@ -6,3 +6,6 @@ compatibility_date = "2023-02-14"
 services = [
     { binding = "BACKEND", service = "no-bundle-import" },
 ]
+
+[ai]
+binding = "AI"
