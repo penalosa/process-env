@@ -3,9 +3,6 @@ name = "process-env"
 pages_build_output_dir = "src"
 compatibility_date = "2023-02-14"
 
-services = [
-    { binding = "BACKEND", service = "no-bundle-import" },
-]
 
 [ai]
 binding = "AI"
